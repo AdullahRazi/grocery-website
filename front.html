@@ -1,0 +1,310 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Online Grocery Shopping</title>
+
+  <script src="https://kit.fontawesome.com/0ee333cf37.js" crossorigin="anonymous"></script>
+
+
+  <style>
+    .webn {
+      
+      font-size: 20px;
+      font-family: 'Brush Script MT', cursive;
+      padding: 0.1px 0px 0.1px 0px;
+
+      background-color: #2eb82e;
+      margin-top: 0px;
+      padding-left: 20px;
+      
+    }
+
+    .nb {
+      padding: 0px 0px 0px 300px;
+    }
+
+    .nb a {
+      float: left;
+      text-decoration: none;
+      padding: 10px 20px 10px 20px;
+      font-size: 20px;
+      color: white;
+      font-weight: bold;
+
+    }
+
+    .nb a:hover {
+      background-color: grey;
+      color: black;
+
+    }
+
+    body {
+      margin: 0;
+    }
+
+    .nb {
+      overflow: hidden;
+      background-color: black;
+      margin-top: 0px;
+
+    }
+
+    .main {
+      padding: 220px;
+      background-image: url('https://blogs.vmware.com/sase/files/2018/03/Image_o-GROCERY-STORE-facebook.jpg');
+      background-size: cover;
+
+      text-align: center;
+
+    }
+
+    .b {
+      width: 100%;
+      padding: 10px 0px 10px 0px;
+      font-weight: bold;
+      font-size: 30px;
+      border-radius: 5px;
+      background-color: black;
+      text-align: center;
+      color: white;
+      cursor: pointer;
+      font-family: Times New Roman, serif;
+
+    }
+
+    button:hover {
+      background-color: #4D421E;
+      color: white;
+      box-shadow: 16px 16px 18px #888888;
+    }
+
+    .offers h2 {
+      text-align: center;
+      font-size: 30px;
+      font-variant: small-caps;
+      margin-bottom: 2px;
+    }
+
+    .offers img {
+      height: 180px;
+      width: 180px;
+    }
+
+    .offers div {
+
+
+      text-align: center;
+      width: 24.4%;
+      background-color: #f2f2f2;
+      margin: 4px;
+      float: left;
+    }
+
+    .offers .des {
+      margin-top: 0px;
+      font-family: Ubuntu, sans-serif;
+    }
+
+    input[type="number"] {
+      width: 30px;
+    }
+
+    input[type=submit] {
+      width: 100%;
+      height: 40px;
+      cursor: pointer;
+      background-color: #ffad33;
+      border: 0;
+      border-radius: 4px;
+      box-shadow: 3px 3px 3px #a5c0c0;
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    span {
+      text-decoration: line-through;
+    }
+
+    input[type=submit]:hover {
+      box-shadow: 5px 5px 5px #a5c0c0;
+      background-color: #ffb84d;
+    }
+
+    .in h1 {
+      background-color: maroon;
+    }
+
+    .vehicle {
+      float: right;
+      margin-top: 0;
+      height: 390px;
+      border: 1px solid #cce0ff;
+      border-radius: 35px;
+      box-shadow: -16px -16px 18px #888888;
+      margin-right: 40px;
+    }
+
+    h3 {
+      background-color: #cce0ff;
+      font-size: 50px;
+      margin-top: 400px;
+      width: 30%;
+      height: 220px;
+      padding-top: 30px;
+      margin-left: 50px;
+      box-shadow: 12px 12px 18px #888888;
+      padding-left: 10px;
+      border: 1px solid #cce0ff;
+      border-radius: 15px;
+
+
+    }
+
+    .brand {
+      margin-top: 500px;
+    }
+
+    .brand div {
+      float: left;
+
+    }
+
+    .brand img {
+      width: 235px;
+      height: 190px;
+      margin: 15px;
+      border: 1px solid #d9d9d9;
+      box-shadow: 4px -4px 6px #888888;
+
+    }
+
+    h4 {
+      font-size: 30px;
+      font-variant: small-caps;
+      text-align: center;
+      margin-bottom: 0;
+    }
+
+    .foot {
+      background-color: #2eb82e;
+      margin-top: 270px;
+      height: 280px;
+      padding-top: 30px;
+
+      border-top: 1px solid black;
+    }
+
+    .foot p {
+      text-align: center;
+    }
+
+    .social img {
+      height: 35px;
+      width: 35px;
+    }
+    .social{
+      text-align: center;
+    }
+    .social i {
+      
+      margin: 20px;
+
+    }
+
+    
+  </style>
+</head>
+
+<body>
+
+  <div class="webn">
+    <h1>Organic Grocery</h1>
+  </div>
+  <div class="nb">
+    <a href="aboutus.html">About Us</a>
+    <a href="signup.html" target="_blank">Sign Up</a>
+    <a href="products.html">Products</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="main">
+
+  </div>
+  <a href="products.html"><button class="b">Apply for a free sample
+    </button><a>
+      <div class="offers">
+        <h2>Hot Deals</h2>
+        <div>
+          <img src="https://www.aashirvaad.com/img/whole_wheat/NMP_FOP.png">
+          <p class="des">Fresher's Atta(5 kg)</p>
+          <p><b>MRP: Rs <span>255</span> 205</b></p>
+          <form action="buy.html">
+            <label for="q">Qty:<label>
+                <input type="number" id="q" min="1" max="50" required><br><br>
+                <input type="submit" value="BUY NOW">
+          </form>
+        </div>
+        <div>
+          <img src="https://www.bigbasket.com/media/uploads/p/l/251023-2_4-coca-cola-soft-drink-original-taste.jpg">
+          <p class="des">Coca Cola</p>
+          <p><b>MRP: Rs <span>105</span> 85</b></p>
+          <form action="buy.html">
+            <label for="q">Qty:</label>
+            <input type="number" id="q" min="1" max="50" required><br><br>
+            <input type="submit" value="BUY NOW">
+          </form>
+        </div>
+        <div>
+          <img src="https://m.media-amazon.com/images/I/71xcZ1fwsDL._SL1500_.jpg">
+          <p class="des">Sir Kengsington's Mayonnaise</p>
+          <p><b>MRP: Rs <span>240</span> 199</b></p>
+          <form action="buy.html">
+            <label for="q">Qty:<label>
+                <input type="number" id="q" min="1" max="50" required><br><br>
+                <input type="submit" value="BUY NOW">
+          </form>
+        </div>
+        <div class="last">
+          <img src="https://m.media-amazon.com/images/I/71G2ZJO50+L._SX522_.jpg">
+          <p class="des">Fresh Onions(1 kg)</p>
+          <p><b>MRP: Rs <span>55</span> 45</b></p>
+          <form action="buy.html">
+            <label for="q">Qty:</label>
+            <input type="number" id="q" min="1" max="50" required><br><br>
+            <input type="submit" value="BUY NOW">
+          </form>
+        </div>
+      </div>
+      <h3>We ensure safe delivery for our customers</h3>
+      <img class="vehicle" src="http://www.jubileerestaurant.in/img/deliverybike.png">
+      <div class="brand">
+        <h4>Some of our brands</h4>
+
+        <div><img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png">
+          <img src="https://www.logotaglines.com/?attachment_id=3811" alt=""><img
+            src=" https://i.pinimg.com/originals/a3/a8/e2/a3a8e28b7bb81b1a00a2d3317c389ca0.jpg"><img
+            src="https://www.archanaskitchen.com/images/Veeba_logo-01.jpg" alt="">
+          <img src="https://thumbs.dreamstime.com/b/stampa-140030177.jpg" alt="">
+        </div>
+
+
+      </div>
+      <div class="foot">
+        <p>FAQ</p>
+        <p>RETURNS</p>
+        <p>SHIPPING</p>
+        <p>CONTACT</p>
+        <p>STORE NUMBER</p><br><br>
+        <div class="social">
+          <i class="social-icon fab fa-twitter"></i>
+          <i class="social-icon fab fa-facebook-f"></i>
+          <i class="social-icon fab fa-instagram"></i>
+          <i class="social-icon fas fa-envelope"></i></div>
+        </div>
+      </div>
+
+</body>
+
+</html>
